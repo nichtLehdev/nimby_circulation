@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<timetable station='Frankfurt(M) Flughafen Fernbf'>
+    <s id="7716594812186754331-2302062233-3">
+        <tl f="D" t="p" o="K4RB" c="HLB" n="28669"/>
+        <ar pt="2302062244" pp="Fern 4" l="RB58" ppth="Rüsselsheim Opelwerk|Rüsselsheim"/>
+        <dp pt="2302062246" pp="Fern 4" l="RB58" ppth="Frankfurt(Main)Süd|Frankfurt(Main)Ost|Frankfurt-Mainkur|Maintal West|Maintal Ost|Hanau-Wilhelmsbad|Hanau West|Hanau Hbf|Großauheim(Kr Hanau)|Großkrotzenburg|Kahl(Main)|Dettingen(Main)|Rückersbacher Schlucht|Kleinostheim|Aschaffenburg Hbf"/>
+    </s>
+    <s id="6676970925042763410-2302062050-18">
+        <tl f="D" t="p" o="K4RB" c="HLB" n="28672"/>
+        <ar pt="2302062213" pp="Fern 7" l="RB58" ppth="Laufach|Hösbach|Aschaffenburg Hbf|Kleinostheim|Rückersbacher Schlucht|Dettingen(Main)|Kahl(Main)|Großkrotzenburg|Großauheim(Kr Hanau)|Hanau Hbf|Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost|Frankfurt(Main)Süd"/>
+        <dp pt="2302062214" pp="Fern 7" l="RB58" ppth="Rüsselsheim|Rüsselsheim Opelwerk"/>
+    </s>
+    <s id="-4688964810676375109-2302062000-5">
+        <tl f="F" t="p" o="80" c="ICE" n="524"/>
+        <ar pt="2302062220" pp="Fern 6" ppth="Nürnberg Hbf|Würzburg Hbf|Aschaffenburg Hbf|Frankfurt(Main)Hbf"/>
+        <dp pt="2302062221" pp="Fern 6" ppth="Limburg Süd|Montabaur|Siegburg/Bonn|Köln/Bonn Flughafen|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Duisburg Hbf|Gelsenkirchen Hbf|Dortmund Hbf"/>
+    </s>
+    <s id="6194893901306646476-2302061729-14">
+        <tl f="F" t="p" o="80" c="ICE" n="617"/>
+        <ar pt="2302062254" pp="Fern 5" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Düsseldorf Hbf|Köln Hbf|Siegburg/Bonn"/>
+        <dp pt="2302062255" pp="Fern 5" ppth="Mannheim Hbf|Stuttgart Hbf"/>
+    </s>
+</timetable>

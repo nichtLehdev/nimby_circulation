@@ -49,26 +49,28 @@ class Stop:
 
 
 class Station:
-    def __init__(self, name, ds100):
+    def __init__(self, name, ds100, eva, traffic):
         self.name = name
         self.ds100 = ds100
         self.id = uuid.uuid4().hex
         self.arrivals = []
         self.departures = []
+        self.eva = eva
+        self.traffic = traffic
 
     def __str__(self):
-        return self.name + " (" + self.ds100 + ")"
+        return self.name + " (" + self.ds100 + ")|[" + str(self.eva) + "]"
 
 
 def loadStations():
     # Load stations from file
     # Return a list of stations
-    csv = pandas.read_csv('./data/stations.csv', keep_default_na=False, sep=';', names=[
-                          "Bundesland", "RB", "BM", "Nr", "Station", "DS100", "Kat", "Str", "PLZ", "Ort", "Verbund"], index_col=False)
+    csv = pandas.read_csv('./data/stations.csv', sep=';', header=1, names=["EVA_NR","DS100","IFOPT","NAME","Verkehr","Laenge","Breite","Betreiber_Name","Betreiber_Nr","Status"] , index_col=False)
     stations = []
     for row in csv.itertuples():
-        if (row.Station != "" and row.DS100 != ""):
-            stations.append(Station(row.Station, row.DS100))
+        if (row.NAME != "" and row.DS100 != "" and row.EVA_NR and row.Verkehr != ""):
+            name = row.NAME.split(",")[0]
+            stations.append(Station(name , row.DS100, row.EVA_NR, row.Verkehr))
     return stations
 
 
@@ -98,8 +100,8 @@ def loadRuns(dateTime, type):
 
 
 # date = "2023-02-04"
-type = "ICE"
-dateTime = str(date.fromisocalendar(2023, 5, 7))
-print("All runs on " + dateTime + " of type " + type + ":\n")
-for run in loadRuns(dateTime, type):
-    print(run)
+# type = "ICE"
+# dateTime = str(date.fromisocalendar(2023, 5, 7))
+# print("All runs on " + dateTime + " of type " + type + ":\n")
+# for run in loadRuns(dateTime, type):
+#    print(run)
