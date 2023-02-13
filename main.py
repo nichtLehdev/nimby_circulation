@@ -65,12 +65,13 @@ class Station:
 def loadStations():
     # Load stations from file
     # Return a list of stations
-    csv = pandas.read_csv('./data/stations.csv', sep=';', header=1, names=["EVA_NR","DS100","IFOPT","NAME","Verkehr","Laenge","Breite","Betreiber_Name","Betreiber_Nr","Status"] , index_col=False)
+    csv = pandas.read_csv('./data/stations.csv', sep=';', header=1, names=[
+                          "EVA_NR", "DS100", "IFOPT", "NAME", "Verkehr", "Laenge", "Breite", "Betreiber_Name", "Betreiber_Nr", "Status"], index_col=False)
     stations = []
     for row in csv.itertuples():
         if (row.NAME != "" and row.DS100 != "" and row.EVA_NR and row.Verkehr != ""):
-            name = row.NAME.split(",")[0]
-            stations.append(Station(name , row.DS100, row.EVA_NR, row.Verkehr))
+            ds100 = row.DS100.split(",")[0]
+            stations.append(Station(row.NAME, ds100, row.EVA_NR, row.Verkehr))
     return stations
 
 

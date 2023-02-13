@@ -1,0 +1,165 @@
+{
+    "timetable": {
+        "@station": "Bickenbach(Bergstr)",
+        "s": [
+            {
+                "@id": "-6187973988259687202-2302111034-4",
+                "tl": {
+                    "@f": "N",
+                    "@t": "p",
+                    "@o": "800574",
+                    "@c": "RE",
+                    "@n": "4661"
+                },
+                "ar": {
+                    "@pt": "2302111101",
+                    "@pp": "3",
+                    "@l": "60",
+                    "@ppth": "Frankfurt(Main)Hbf|Langen(Hess)|Darmstadt Hbf"
+                },
+                "dp": {
+                    "@pt": "2302111102",
+                    "@pp": "3",
+                    "@l": "60",
+                    "@ppth": "Zwingenberg(Bergstr)|Bensheim|Heppenheim(Bergstr)|Hemsbach|Weinheim(Bergstr)Hbf|Ladenburg|Neu-Edingen/Friedrichsfeld|Mannheim Hbf"
+                }
+            },
+            {
+                "@id": "4120447929884933829-2302111020-16",
+                "tl": {
+                    "@f": "N",
+                    "@t": "p",
+                    "@o": "800574",
+                    "@c": "RB",
+                    "@n": "15312"
+                },
+                "ar": {
+                    "@pt": "2302111111",
+                    "@pp": "1",
+                    "@l": "68",
+                    "@ppth": "Heidelberg Hbf|Heidelberg-Pfaffengrund/Wieblingen|Neu-Edingen/Friedrichsfeld|Ladenburg|Heddesheim/Hirschberg|Weinheim-L\u00fctzelsachsen|Weinheim(Bergstr)Hbf|Weinheim-Sulzbach|Hemsbach|Laudenbach(Bergstr)|Heppenheim(Bergstr)|Bensheim|Bensheim-Auerbach|Zwingenberg(Bergstr)|H\u00e4hnlein-Alsbach"
+                },
+                "dp": {
+                    "@pt": "2302111111",
+                    "@pp": "1",
+                    "@l": "68",
+                    "@ppth": "Darmstadt-Eberstadt|Darmstadt S\u00fcd|Darmstadt Hbf|Langen(Hess)|Frankfurt(Main)Hbf"
+                }
+            },
+            {
+                "@id": "1472842129083258450-2302111106-6",
+                "tl": {
+                    "@f": "N",
+                    "@t": "p",
+                    "@o": "800574",
+                    "@c": "RB",
+                    "@n": "15415"
+                },
+                "ar": {
+                    "@pt": "2302111142",
+                    "@pp": "3",
+                    "@l": "67",
+                    "@ppth": "Frankfurt(Main)Hbf|Langen(Hess)|Darmstadt Hbf|Darmstadt S\u00fcd|Darmstadt-Eberstadt"
+                },
+                "dp": {
+                    "@pt": "2302111146",
+                    "@pp": "3",
+                    "@l": "67",
+                    "@ppth": "H\u00e4hnlein-Alsbach|Zwingenberg(Bergstr)|Bensheim-Auerbach|Bensheim|Heppenheim(Bergstr)|Laudenbach(Bergstr)|Hemsbach|Weinheim-Sulzbach|Weinheim(Bergstr)Hbf|Weinheim-L\u00fctzelsachsen|Heddesheim/Hirschberg|Ladenburg|Neu-Edingen/Friedrichsfeld|Schwetzingen"
+                }
+            },
+            {
+                "@id": "8437561899893510017-2302111106-6",
+                "tl": {
+                    "@f": "N",
+                    "@t": "p",
+                    "@o": "800574",
+                    "@c": "RB",
+                    "@n": "15315"
+                },
+                "ar": {
+                    "@pt": "2302111142",
+                    "@pp": "3",
+                    "@l": "68",
+                    "@wings": "1472842129083258450-2302111106",
+                    "@ppth": "Frankfurt(Main)Hbf|Langen(Hess)|Darmstadt Hbf|Darmstadt S\u00fcd|Darmstadt-Eberstadt"
+                },
+                "dp": {
+                    "@pt": "2302111146",
+                    "@pp": "3",
+                    "@l": "68",
+                    "@wings": "1472842129083258450-2302111106",
+                    "@ppth": "H\u00e4hnlein-Alsbach|Zwingenberg(Bergstr)|Bensheim-Auerbach|Bensheim|Heppenheim(Bergstr)|Laudenbach(Bergstr)|Hemsbach|Weinheim-Sulzbach|Weinheim(Bergstr)Hbf|Weinheim-L\u00fctzelsachsen|Heddesheim/Hirschberg|Ladenburg|Neu-Edingen/Friedrichsfeld|Heidelberg-Pfaffengrund/Wieblingen|Heidelberg Hbf"
+                }
+            },
+            {
+                "@id": "4046765113780415617-2302111016-15",
+                "tl": {
+                    "@f": "N",
+                    "@t": "p",
+                    "@o": "800574",
+                    "@c": "RB",
+                    "@n": "15412"
+                },
+                "ar": {
+                    "@pt": "2302111111",
+                    "@pp": "1",
+                    "@l": "67",
+                    "@wings": "4120447929884933829-2302111020",
+                    "@ppth": "Schwetzingen|Neu-Edingen/Friedrichsfeld|Ladenburg|Heddesheim/Hirschberg|Weinheim-L\u00fctzelsachsen|Weinheim(Bergstr)Hbf|Weinheim-Sulzbach|Hemsbach|Laudenbach(Bergstr)|Heppenheim(Bergstr)|Bensheim|Bensheim-Auerbach|Zwingenberg(Bergstr)|H\u00e4hnlein-Alsbach"
+                },
+                "dp": {
+                    "@pt": "2302111111",
+                    "@pp": "1",
+                    "@l": "67",
+                    "@wings": "4120447929884933829-2302111020",
+                    "@ppth": "Darmstadt-Eberstadt|Darmstadt S\u00fcd|Darmstadt Hbf|Langen(Hess)|Frankfurt(Main)Hbf"
+                }
+            },
+            {
+                "@id": "-836406057359441022-2302111115-9",
+                "tl": {
+                    "@f": "N",
+                    "@t": "p",
+                    "@o": "800574",
+                    "@c": "RE",
+                    "@n": "4662"
+                },
+                "ar": {
+                    "@pt": "2302111157",
+                    "@pp": "1",
+                    "@l": "60",
+                    "@ppth": "Mannheim Hbf|Neu-Edingen/Friedrichsfeld|Ladenburg|Weinheim(Bergstr)Hbf|Hemsbach|Heppenheim(Bergstr)|Bensheim|Zwingenberg(Bergstr)"
+                },
+                "dp": {
+                    "@pt": "2302111158",
+                    "@pp": "1",
+                    "@l": "60",
+                    "@ppth": "Darmstadt Hbf|Langen(Hess)|Frankfurt(Main)Hbf"
+                }
+            },
+            {
+                "@id": "5324783183662023013-2302111131-4",
+                "tl": {
+                    "@f": "N",
+                    "@t": "p",
+                    "@o": "800574",
+                    "@c": "RE",
+                    "@n": "4663"
+                },
+                "ar": {
+                    "@pt": "2302111156",
+                    "@pp": "3",
+                    "@l": "60",
+                    "@ppth": "Frankfurt(Main)Hbf|Langen(Hess)|Darmstadt Hbf"
+                },
+                "dp": {
+                    "@pt": "2302111157",
+                    "@pp": "3",
+                    "@l": "60",
+                    "@ppth": "Zwingenberg(Bergstr)|Bensheim|Heppenheim(Bergstr)|Hemsbach|Weinheim(Bergstr)Hbf|Ladenburg|Neu-Edingen/Friedrichsfeld|Mannheim Hbf"
+                }
+            }
+        ]
+    }
+}
