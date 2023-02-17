@@ -21,7 +21,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8012797;URO;de:16065:8012797;Roßleben;nur DPN;11,436302;51,297859;Deutsche Regionaleisenbahn GmbH;;neu
 8013241;BWAF;de:12061:900260080;Waßmannsdorf;RV;13,4635305;52,36842;DB Station und Service AG;;neu
 8013301;DWID;de:14625:6905;Wiednitz;nur DPN;14,039241;51,393167;;;neu
-8071096;WSTS;de:12068:900205749;Rheinsberg Stechlinsee;nur DPN;12,985605;53,149007;Regio Infra Nord-Ost GmbH & Co. KG;;neu
 8089201;BFBB;de:12061:900260009:3;Flughafen BER - Terminal 1-2 (S-Bahn);RV;13,5119176;52,3648431;DB Station und Service AG;;neu
 8000001;KA;de:05334:1008;Aachen Hbf;FV;6,091499;50,7678;DB Station und Service AG;1;
 8000002;TA;de:08136:1000;Aalen Hbf;FV;10,096271;48,841013;DB Station und Service AG;4;
@@ -1827,7 +1826,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8002783;NHEN;de:09572:6510;Heroldsberg Nord;RV;11,146804;49,544582;DB Station und Service AG;7995;
 8002784;KHER;de:05116:23559;Herrath;RV;6,367399;51,104316;DB Station und Service AG;2725;
 8002785;THE,THE Z;de:08115:4512;Herrenberg;FV;8,862662;48,593991;DB Station und Service AG;2726;
-8002786;TZWE;de:08115:7202;Herrenberg Zwerchweg;RV;8,867661;48,584969;Zweckverband ÖPNV im Ammertal;;
 8002789;THL;de:08425:2728;Herrlingen;RV;9,89773;48,417731;DB Station und Service AG;2728;
 8002792;MHI;de:09188:5410;Herrsching;RV;11,170571;47,998849;DB Station und Service AG;2732;
 8002793;NHL;de:09574:7100;Hersbruck(l Pegnitz);RV;11,435143;49,500462;DB Station und Service AG;2733;
@@ -2022,7 +2020,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8003141;KKAA;de:05162:20625;Kaarster Bahnhof;nur DPN;6,607274;51,222551;Regiobahn GmbH;;
 8003143;FKLM,FKLP;de:09671:1055;Kahl(Main);RV;9,005468;50,07687;DB Station und Service AG;3078;
 8003144;FKAI;de:06437:11448;Hesseneck Kailbach;nur DPN;9,077482;49,539338;DB Station und Service AG;3081;
-8003146;MKAI;de:09180:10104;Kainzenbad;RV;11,116723;47,482981;DB Station und Service AG;7527;
 8003148;SKAI;de:07135:070011;Kaisersesch;RV;7,129573;50,232102;DB Station und Service AG;4225;
 8003150;SKLP;de:07312:8020;Kaiserslautern Pfaffwerk;RV;7,751248;49,434714;DB Station und Service AG;3083;
 8003151;SKLW;de:07312:8021;Kaiserslautern West;RV;7,749812;49,447535;DB Station und Service AG;3084;
@@ -2208,7 +2205,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8003431;AKHD;de:01061:51387;Kremperheide;nur DPN;9,480377;53,881178;DB Station und Service AG;7255;
 8003432;TKN;de:08435:44168;Kressbronn;RV;9,598854;47,594239;DB Station und Service AG;3412;
 8003434;SKK;de:07235:10425;Kreuz Konz;RV;6,576866;49,703798;DB Station und Service AG;3415;
-8003436;KKRZ;de:07131:080005;Kreuzberg(Ahr);RV;6,978557;50,506442;DB Station und Service AG;3416;
 8003438;MKZ;de:09182:43677;Kreuzstraße;RV;11,759014;47,916494;DB Station und Service AG;3419;
 8003440;KKRW;de:05366:72402;Euskirchen-Kreuzweingarten;RV;6,796055;50,613054;DB Station und Service AG;3421;
 8003442;FKRI;de:06436:2101;Kriftel;RV;8,475448;50,08228;DB Station und Service AG;3423;
@@ -2716,7 +2712,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8004256;MNBK;de:09774:3050;Neuburg(Kammel);RV;10,3656405;48,3028543;DB Station und Service AG;4367;
 8004257;RNBU;de:07334:32465;Neuburg(Rhein);RV;8,238217;48,992129;DB Station und Service AG;7189;
 8004258;TND;de:08125:1904;Neudenau;RV;9,27082;49,288367;DB Station und Service AG;4370;
-8004260;HNPL;de:03151:7019;Neudorf-Platendorf;nur DPN;10,60754;52,548702;DB Station und Service AG;4374;
 8004264;TNES;de:08236:1491;Neuenbürg(Enz) Süd;RV;8,598864;48,844572;Albtal-Verkehrs-Gesellschaft mbH;;
 8004265;TNE;de:08236:1490;Neuenbürg(Enz);RV;8,600857;48,849147;Albtal-Verkehrs-Gesellschaft mbH;;
 8004266;AHAB;de:02000:10951;Hamburg-Hammerbrook;RV;10,02361;53,54661;DB Station und Service AG;2533;
@@ -3101,7 +3096,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8004962;FRA;de:06433:4910;Raunheim;RV;8,454498;50,009688;DB Station und Service AG;5147;
 8004965;TRB;de:08436:8000;Ravensburg;FV;9,6061;47,784481;DB Station und Service AG;5150;
 8004966;MRH;de:09176:9021;Rebdorf-Hofmühle;nur DPN;11,169457;48,892215;DB Station und Service AG;5151;
-8004967;KREC;de:07131:080339;Rech;RV;7,036344;50,5153;DB Station und Service AG;5153;
 8004968;TRC;de:08425:3412;Rechtenstein;RV;9,550904;48,239993;Erms-Neckar-Bahn AG;;
 8004970;HRFD;de:03460:76048;Rechterfeld;nur DPN;8,391291;52,838685;DB Station und Service AG;5156;
 8004971;NRDF;de:09471:21630;Reckendorf;nur DPN;10,834038;50,019394;DB Station und Service AG;5158;
@@ -4108,7 +4102,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8007068;AVSL;de:01056:99962;Voßloch;nur DPN;9,735868;53,790602;AKN Eisenbahn AG;;
 8007069;ABMB;de:01056:8007069;Barmstedt Brunnenstr;nur DPN;9,761888;53,792619;AKN Eisenbahn AG;;
 8007070;ABMS;de:01056:99960;Barmstedt;nur DPN;9,772007;53,792978;AKN Eisenbahn AG;;
-8007076;EBID;de:07132:090220;Biersdorf(Westerw);nur DPN;7,943623;50,749987;Westerwaldbahn GmbH;;
 8007077;EDAD;de:07132:090210;Daaden;nur DPN;7,963642;50,740469;Westerwaldbahn GmbH;;
 8007078;EGNP;de:07132:090159;Alsdorf(Westerw);nur DPN;7,890486;50,78089;Westerwaldbahn GmbH;;
 8007079;ENDR;de:07132:090233;Niederdreisbach;nur DPN;7,922511;50,755516;Westerwaldbahn GmbH;;
@@ -4887,7 +4880,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8011576;DFWH;de:14627:4326;Friedewald(Kr Dresden)Hp;nur DPN;13,651873;51,131301;Sächsische Dampfeisenbahngesellschaft mbH;;
 8011578;UFR;de:16067:8011578;Friedrichroda;nur DPN;10,576685;50,862151;DB Station und Service AG;1940;
 8011582;WFRR;de:13076:1131;Friedrichsruhe(Meck);nur DPN;11,739088;53,524802;DB Station und Service AG;1951;
-8011583;WFL;de:12060:900350050;Friedrichswalde(bei Eberswalde);nur DPN;13,703148;53,030373;Niederbarnimer Eisenbahn AG;;
 8011585;WFRK;de:12063:900210456;Friesack(Mark);nur DPN;12,587542;52,760712;DB Station und Service AG;1959;
 8011588;LFB;de:14729:8011588;Frohburg;RV;12,559288;51,069159;DB Station und Service AG;1965;
 8011591;BFUS;de:12067:900310010;Fürstenwalde Süd;nur DPN;14,086609;52,341895;DB Station und Service AG;1981;
@@ -5387,7 +5379,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8012565;BORT;de:12066:900435801;Ortrand;RV;13,764948;51,373633;DB Station und Service AG;4781;
 8012567;UOM;de:16071:8012567;Oßmannstedt;nur DPN;11,4252984;51,0190867;DB Station und Service AG;4788;
 8012568;LOB;de:15090:8012568;Osterburg;RV;11,760386;52,787668;DB Station und Service AG;4789;
-8012570;LOST;de:15082:8012570;Osternienburg;nur DPN;12,03059;51,783518;DB Station und Service AG;4797;
 8012572;LON;de:15083:8012572;Osterweddingen;nur DPN;11,575921;52,049135;DB Station und Service AG;4803;
 8012576;DOU;de:14522:55204;Ostrau;nur DPN;13,166405;51,200294;DB Station und Service AG;4811;
 8012582;WGMS;de:13003:1502;Rostock-Torfbrücke;RV;12,227735;54,241758;DB Station und Service AG;4813;
@@ -5492,7 +5483,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8012763;WRI;de:13073:5018;Ribnitz-Damgarten West;FV;12,436965;54,239176;DB Station und Service AG;5265;
 8012766;URIE;de:15087:8012766;Riestedt;nur DPN;11,379856;51,484021;DB Station und Service AG;5280;
 8012767;BRI;de:14626:8378;Rietschen;nur DPN;14,7839177;51,3986869;DB Station und Service AG;5282;
-8012768;WRIW;de:12073:900340028;Ringenwalde(Templin);nur DPN;13,7075;53,057004;Niederbarnimer Eisenbahn AG;;
 8012769;URGS;de:16068:8012769;Ringleben-Gebesee;RV;10,957993;51,104096;DB Station und Service AG;5285;
 8012770;URI;de:16066:8012770;Ritschenhausen;nur DPN;10,429506;50,512863;DB Station und Service AG;5292;
 8012775;DROW;de:14523:1131;Rodewisch;nur DPN;12,395337;50,528653;DB Station und Service AG;5309;
@@ -5878,7 +5868,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8017479;DCANH;de:14511:30220;Chemnitz TU Campus;nur DPN;12,930901;50,8137;City-Bahn Chemnitz GmbH;;
 8017480;DCANR;de:14511:30222;Chemnitz Rosenbergstraße;nur DPN;12,929305;50,817897;City-Bahn Chemnitz GmbH;;
 8017481;DCANT;de:14511:30226;Chemnitz Technopark;nur DPN;12,924603;50,811498;City-Bahn Chemnitz GmbH;;
-8026544;NTFB;de:09275:80592;Tiefenbach(b Passau);nur DPN;13,42308;48,61502;Ilztalbahn GmbH;;
 8029356;TEND;de:08417:30248;Endingen(Württ);nur DPN;8,83688;48,257384;Hohenzollerische Landesbahn AG;;
 8029357;TERZ;de:08417:30251;Erzingen(Württ);nur DPN;8,815709;48,255409;Hohenzollerische Landesbahn AG;;
 8029358;TDOD;de:08417:37602;Dotternhausen-Dormettingen;nur DPN;8,781119;48,228455;Hohenzollerische Landesbahn AG;;
@@ -5998,7 +5987,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8071002;TSWW;de:08125:1705;Schwaigern(Württ) West;RV;9,042472;49,138813;Albtal-Verkehrs-Gesellschaft mbH;;
 8071003;TLGM;de:08125:7403;Leingarten Mitte;RV;9,112742;49,145609;Albtal-Verkehrs-Gesellschaft mbH;;
 8071022;KJW;de:05358:6052;Jakobwüllesheim;nur DPN;6,565209;50,766705;Rurtalbahn GmbH;;
-8071117;NNHM;de:09275:81844;Neuhausmühle;nur DPN;13,5067114;48,7265206;Ilztalbahn GmbH;;
 8071172;TH  W;de:08121:24;Heilbronn Harmonie/Hafenmarktpassage;RV;9,222436;49,142702;Albtal-Verkehrs-Gesellschaft mbH;;
 8071174;DC  F;de:14511:30651;Chemnitz Friedrichstraße;nur DPN;12,919367;50,772853;City-Bahn Chemnitz GmbH;;
 8071257;KBIF;de:05358:5036;Binsfeld;nur DPN;6,533342;50,79497;Rurtalbahn GmbH;;
@@ -6320,14 +6308,12 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8001465;EDGD;de:05170:37034;Dingden;nur DPN;6,607872;51,770232;DB Station und Service AG;1217;
 8001428;TDT;de:08116:5778;Dettingen (Teck);RV;9,454878;48,616409;DB Station und Service AG;1183;
 8012426;DNGM;de:14521:40491;Nennigmühle;RV;13,253168;50,691091;DB RegioNetz Infrastruktur GmbH;;
-8007071;TSBH;de:08425:2565;Stubersheim;RV;9,920377;48,593792;Ulmer Eisenbahnfreunde Eisenbahnverkehrsgesellschaft mbH;;
 8012373;LMGI;de:12063:900210197;Mögelin;nur DPN;12,329815;52,560089;DB Station und Service AG;4149;
 8013343;DWO;de:14521:40801;Wolkenstein;RV;13,064965;50,652743;DB RegioNetz Infrastruktur GmbH;;
 8004541;EOS,EOS P;de:05119:14210;Oberhausen-Osterfeld Süd;nur DPN;6,885134;51,499889;DB Station und Service AG;4650;
 8002299;HGOH;de:05762:9033;Godelheim;nur DPN;9,356871;51,735123;DB Station und Service AG;2162;
 8004553;TOL;de:08116:4418;Oberlenningen;RV;9,470774;48,554385;DB Station und Service AG;4661;
 8004652;HOFN;de:03155:92881;Offensen (Kr North);nur DPN;9,679817;51,588886;DB Station und Service AG;4746;
-8005285;HSAB;de:03455:80409;Sanderbusch;nur DPN;8,014777;53,507247;DB Station und Service AG;5497;
 8004740;TOW;de:08116:5779;Owen (Teck);RV;9,44776;48,586996;DB Station und Service AG;4842;
 8005166;NRNU;de:09272:80739;Rosenau (b Grafenau);nur DPN;13,408466;48,874132;DB Station und Service AG;5344;
 8001301;HBUR;de:03462:16062;Burhafe (Ostfriesl);nur DPN;7,711074;53,606557;DB Station und Service AG;454;
@@ -6375,7 +6361,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8000391;HHZM;de:03255:43630;Holzminden;nur DPN;9,453743;51,820268;DB Station und Service AG;2889;
 8011084;LSUR;de:15085:22761;Bad Suderode;nur DPN;11,125782;51,733673;Harzer Schmalspurbahnen GmbH;;
 8006685;NZWU;de:09276:5030;Zwieselau;nur DPN;13,276937;49,00676;DB Station und Service AG;7073;
-8007072;TSKS;de:08425:2576;Schalkstetten;RV;9,91133;48,611798;Ulmer Eisenbahnfreunde Eisenbahnverkehrsgesellschaft mbH;;
 8079063;KBRN;de:05334:5547;Breinig;RV;6,21404;50,731121;EVS EUREGIO-Verkehrsschienennetz GmbH;;
 8011528;DFU;de:14522:51528;Falkenau (Sachs) Hp;RV;13,118402;50,854685;DB RegioNetz Infrastruktur GmbH;;
 8017005;LDRG;de:15085:5543;Drahtzug;nur DPN;11,124636;51,663447;Harzer Schmalspurbahnen GmbH;;
@@ -6396,7 +6381,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8012558;DOL;de:14521:48328;Olbernhau;RV;13,336774;50,656255;DB RegioNetz Infrastruktur GmbH;;
 8011654;LGOR;de:12051:900275325;Görden;nur DPN;12,503951;52,427881;DB Station und Service AG;2191;
 8003676;NLH;de:09276:10969;Lichtenthal;nur DPN;13,246466;49,008762;DB Station und Service AG;3707;
-8079075;TAM M;de:08425:2559;Amstetten (W) Lokalbahn;RV;9,873959;48,577852;Ulmer Eisenbahnfreunde Eisenbahnverkehrsgesellschaft mbH;;
 8003722;HLOD;de:03152:57306;Lödingsen;nur DPN;9,791027;51,589196;DB Station und Service AG;3760;
 8011506;DERB;de:14521:40260;Erlabrunn (Erzgeb);RV;12,720499;50,470906;DB RegioNetz Infrastruktur GmbH;;
 8012690;LQQ;de:15085:22365;Quedlinburg-Quarmbeck;nur DPN;11,126402;51,753029;Harzer Schmalspurbahnen GmbH;;
@@ -6423,10 +6407,7 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8070777;LNHNB;de:16062:8070777;Nordhausen Bahnhofsplatz;nur DPN;10,789318;51,493954;Harzer Schmalspurbahnen GmbH;;
 8010277;DPF;de:14521:49407;Pockau-Lengefeld;RV;13,2267934;50,7071736;DB RegioNetz Infrastruktur GmbH;;
 8007894;HBRB;de:04011:14313;Bremen-Blumenthal;nur DPN;8,58118;53,183635;Farge-Vegesacker Eisenbahn GmbH;;
-8007073;TWHS;de:08117:519;Waldhausen (b Geislingen);RV;9,907723;48,635308;Ulmer Eisenbahnfreunde Eisenbahnverkehrsgesellschaft mbH;;
-8007074;TGSS;de:08135:1144;Gussenstadt;RV;9,957623;48,639901;Ulmer Eisenbahnfreunde Eisenbahnverkehrsgesellschaft mbH;;
 8002344;NGFU;de:09272:5047;Grafenau;nur DPN;13,393327;48,856168;DB Station und Service AG;2229;
-8007075;TGSN;de:08135:1095;Gerstetten;RV;10,022662;48,624836;Ulmer Eisenbahnfreunde Eisenbahnverkehrsgesellschaft mbH;;
 8007147;TTRA;de:08415:28808;Trochtelfingen ALB-GOLD;nur DPN;9,245916;48,328851;Hohenzollerische Landesbahn AG;;
 8003283;TKTS;de:08116:5777;Kirchheim (Teck) Süd;RV;9,451788;48,640261;DB Station und Service AG;3195;
 8001108;EBTV;de:05512:3447;Bottrop-Vonderort;nur DPN;6,912294;51,501728;DB Station und Service AG;806;
