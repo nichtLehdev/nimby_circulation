@@ -32,7 +32,7 @@ def main():
                 next_step = length - count
             else:
                 next_step = 100
-            embed.description = "Concatenating data for "+next_step+" stations: (" + str(
+            embed.description = "Concatenating data for " + str(next_step) + " stations: (" + str(
                 count) + "/" + str(length) + ")"
             embed.color = 0xe47200
             message.edit(embeds=[embed])
