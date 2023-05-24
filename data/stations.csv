@@ -1496,7 +1496,7 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8002168;TGAW;de:08127:20839;Gaildorf West;RV;9,753892;49,003822;DB Station und Service AG;1998;
 8002171;MGH;de:09176:9008;Gaimersheim;RV;11,36979;48,798789;DB Station und Service AG;2000;
 8002173;MGAI;de:09173:4510;Gaißach;nur DPN;11,575401;47,737467;DB Station und Service AG;2001;
-8002175;SGSZ;de:07312:8186;Galgenschanze;RV;7,744124;49,43549;DB Station und Service AG;7862;
+8002175;SGSZ;de:07312:8186;Kaiserslautern Galgenschanze;RV;7,744124;49,43549;DB Station und Service AG;7862;
 8002177;TGAM;de:08128:13304;Gamburg(Tauber);RV;9,59558;49,698297;DB RegioNetz Infrastruktur GmbH;;
 8002179;HGKE;de:03458:29386;Ganderkesee;nur DPN;8,542777;53,035251;DB Station und Service AG;2005;
 8002180;EGAR;de:05962:3027;Garbeck;RV;7,839903;51,321459;DB Station und Service AG;2008;
@@ -3745,7 +3745,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8006118;EVRO;de:05970:10759;Vormwald Dorf;nur DPN;8,127215;50,989929;DB Station und Service AG;6454;
 8006120;NV;de:09574:7950;Vorra(Pegnitz);RV;11,4932942;49,5626732;DB Station und Service AG;6455;
 8006125;RWCH;de:07332:3895;Wachenheim(Pfalz);RV;8,191152;49,4393;DB Station und Service AG;6458;
-8006126;FWAM;de:07331:3908;Wachenheim-Mölsheim;RV;8,168439;49,635362;Donnersberg-Touristik-Verband e.V.;;
 8006131;MWAE;de:09184:2230;Wächterhof;RV;11,712731;48,033567;DB Station und Service AG;6459;
 8006132;FWAE;de:06435:11055;Wächtersbach;RV;9,295828;50,253958;DB Station und Service AG;6460;
 8006134;NWAF;de:09372:2809;Waffenbrunn;nur DPN;12,675032;49,261541;DB Station und Service AG;6462;
@@ -4339,7 +4338,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8010053;BBF;de:12072:900245027:1;Blankenfelde(Teltow-Fläming);RV;13,415982;52,337213;DB Station und Service AG;688;
 8010054;UBM;de:15087:8010054;Blankenheim(Sangerhausen);nur DPN;11,426004;51,502781;DB Station und Service AG;689;
 8010055;UBD;de:16062:8010055;Bleicherode Ost;nur DPN;10,608882;51,453175;DB Station und Service AG;702;
-8010056;LBLG;de:15083:8010056;Blumenberg;nur DPN;11,457093;52,033806;DB Station und Service AG;712;
 8010059;LBOR;de:14729:8010059;Borsdorf(Sachs);RV;12,541165;51,345705;DB Station und Service AG;797;
 8010060;LB;de:12051:900275110;Brandenburg Hbf;FV;12,566138;52,400554;DB Station und Service AG;823;
 8010061;UBR;de:16065:8010061;Bretleben;nur DPN;11,240839;51,340743;DB Station und Service AG;874;
@@ -4606,7 +4604,7 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8010401;WPUB;de:13073:11341;Putbus;nur DPN;13,48097;54,356764;Eisenbahn-Bau- und Betriebsgesellschaft Pressnitztalbahn mbH;;
 8010403;BCHB;de:11000:900024101;Berlin-Charlottenburg;FV;13,3023298;52,5042126;DB Station und Service AG;537;
 8010404;BSPD;de:11000:900029101;Berlin-Spandau;FV;13,1968975;52,5346481;DB Station und Service AG;561;
-8010405;BWS;de:11000:900053301:3;Berlin Wannsee;FV;13,1795275;52,4209723;DB Station und Service AG;566;
+8010405;BWS;de:11000:900053301:3;Berlin-Wannsee;FV;13,1795275;52,4209723;DB Station und Service AG;566;
 8010406;BZOO;de:11000:900023201;Berlin Zoologischer Garten;FV;13,331992;52,507277;DB Station und Service AG;533;
 8011002;DADO;de:14521:30907;Adorf(Erzgeb);nur DPN;12,873666;50,76385;City-Bahn Chemnitz GmbH;;
 8011003;BAHR;de:11000:900170004:1;Ahrensfelde;nur DPN;13,565154;52,571375;DB Station und Service AG;28;
@@ -5916,8 +5914,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8070214;AOSD;de:03356:72263;Ostersode;nur DPN;8,975377;53,314658;Eisenbahnen und Verkehrsbetriebe Elbe-Weser GmbH;;
 8070219;THTT;de:08425:2956;Hütten;RV;9,642462;48,370998;Erms-Neckar-Bahn AG;;
 8070220;TMCR;de:08118:7607;Münchingen Rührberg;nur DPN;9,095853;48,849796;Württembergische Eisenbahn-Gesellschaft mbH;;
-8070252;FALH;de:07333:5288;Albisheim(Pfrimm);RV;8,096752;49,644776;Donnersberg-Touristik-Verband e.V.;;
-8070253;FHAX;de:07333:9079;Harxheim-Zell;RV;8,137885;49,64074;Donnersberg-Touristik-Verband e.V.;;
 8070257;FGLD;de:07333:5454;Göllheim-Dreisen;RV;8,016444;49,599376;Donnersberg-Touristik-Verband e.V.;;
 8070258;WSIW;de:13073:11743;Sellin(Rügen) West;nur DPN;13,680913;54,375892;Eisenbahn-Bau- und Betriebsgesellschaft Pressnitztalbahn mbH;;
 8070259;LDWA;de:15001:15683;Dessau-Waldersee;nur DPN;12,270566;51,836564;Dessauer Verkehrs- und Eisenbahngesellschaft mbH;;
@@ -6303,7 +6299,7 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8012176;DLR;de:14521:52176;Lauter (Sachs);RV;12,749028;50,568051;DB RegioNetz Infrastruktur GmbH;;
 8013434;DZWS;de:14524:53434;Zwickau-Schedewitz;RV;12,495009;50,701851;DB RegioNetz Infrastruktur GmbH;;
 8012201;DRAU;de:14521:40585;Lengefeld-Rauenstein;RV;13,202676;50,730583;DB RegioNetz Infrastruktur GmbH;;
-8012208;DLEU;de:14522:70336;Leubsdorf (Sachs);RV;13,14131;50,80185;DB RegioNetz Infrastruktur GmbH;;
+8012208;DLEU;de:14522:70336;Leubsdorf(Sachs);RV;13,14131;50,80185;DB RegioNetz Infrastruktur GmbH;;
 8001465;EDGD;de:05170:37034;Dingden;nur DPN;6,607872;51,770232;DB Station und Service AG;1217;
 8001428;TDT;de:08116:5778;Dettingen (Teck);RV;9,454878;48,616409;DB Station und Service AG;1183;
 8012426;DNGM;de:14521:40491;Nennigmühle;RV;13,253168;50,691091;DB RegioNetz Infrastruktur GmbH;;
@@ -6348,7 +6344,6 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8005771;TSM;de:08111:1504;Stuttgart-Münster;RV;9,21586;48,820724;DB Station und Service AG;6080;
 8005766;TSEB;de:08111:1604;Stuttgart Ebitzweg;RV;9,231701;48,803938;DB Station und Service AG;6070;
 8005665;HSDF;de:03255:86728;Stadtoldendorf;nur DPN;9,620519;51,881002;DB Station und Service AG;5958;
-8005762;FSY;;Stryck;RV;8,629398;51,282472;DB RegioNetz Infrastruktur GmbH;;
 8013328;DWIT;de:14521:20542;Witzschdorf;RV;13,088523;50,775236;DB RegioNetz Infrastruktur GmbH;;
 8006520;HWTM;de:03462:100862;Wittmund;nur DPN;7,788826;53,579868;DB Station und Service AG;6836;
 8003780;HLN;de:05762:9032;Lüchtringen;nur DPN;9,427208;51,790928;DB Station und Service AG;3821;
