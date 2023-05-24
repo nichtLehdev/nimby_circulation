@@ -8,3 +8,5 @@ data/journeys
 __pycache__
 
 *.zip
+
+.DS_Store
