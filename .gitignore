@@ -3,6 +3,7 @@ config.py
 
 data/stations
 data/concatFiles
+data/journeys
 
 __pycache__
 
