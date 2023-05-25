@@ -25,7 +25,7 @@ def loadStations():
     # Load stations from file
     # Return a list of stations
     dataPath = getDataPath()
-    csv = pandas.read_csv(dataPath+'/stations.csv', sep=';', header=1, names=[
+    csv = pandas.read_csv(dataPath+'/stationsFix.csv', sep=';', header=1, names=[
                           "EVA_NR", "DS100", "IFOPT", "NAME", "Verkehr", "Laenge", "Breite", "Betreiber_Name", "Betreiber_Nr", "Status"], index_col=False)
     stations = []
     for row in csv.itertuples():
@@ -39,4 +39,8 @@ def dataLoop():
     while (datetime.now().minute != 0):
         sleep(60)
 
-    main()
+
+
+
+
+

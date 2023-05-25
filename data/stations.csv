@@ -6321,7 +6321,7 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8011777;DGRB;de:14521:70602;Grünhainichen-Borstendorf;RV;13,163443;50,774622;DB RegioNetz Infrastruktur GmbH;;
 8011823;DHST;de:14524:10239;Hartenstein;RV;12,658653;50,651833;DB RegioNetz Infrastruktur GmbH;;
 8011856;DHRF;de:14522:51856;Hennersdorf (Sachs);RV;13,070919;50,791751;DB RegioNetz Infrastruktur GmbH;;
-8011870;DHZF;de:14522:70549;Hetzdorf (Flöhatal);RV;13,127695;50,840313;DB RegioNetz Infrastruktur GmbH;;
+8011870;DHZF;de:14522:70549;Hetzdorf(Flöhatal);RV;13,127695;50,840313;DB RegioNetz Infrastruktur GmbH;;
 8011892;DHOF;de:14522:51892;Hohenfichte;RV;13,133981;50,822064;DB RegioNetz Infrastruktur GmbH;;
 8012113;DKRU;de:14628:3912;Krumhermsdorf;nur DPN;14,207348;50,992963;DB Station und Service AG;3439;
 8012542;UOW;de:16073:8012542;Oberweißbach-Deesbach;RV;11,135521;50,579239;DB RegioNetz Infrastruktur GmbH;;
@@ -6356,7 +6356,7 @@ EVA_NR;DS100;IFOPT;NAME;Verkehr;Laenge;Breite;Betreiber_Name;Betreiber_Nr;Status
 8011084;LSUR;de:15085:22761;Bad Suderode;nur DPN;11,125782;51,733673;Harzer Schmalspurbahnen GmbH;;
 8006685;NZWU;de:09276:5030;Zwieselau;nur DPN;13,276937;49,00676;DB Station und Service AG;7073;
 8079063;KBRN;de:05334:5547;Breinig;RV;6,21404;50,731121;EVS EUREGIO-Verkehrsschienennetz GmbH;;
-8011528;DFU;de:14522:51528;Falkenau (Sachs) Hp;RV;13,118402;50,854685;DB RegioNetz Infrastruktur GmbH;;
+8011528;DFU;de:14522:51528;Falkenau(Sachs)Hp;RV;13,118402;50,854685;DB RegioNetz Infrastruktur GmbH;;
 8017005;LDRG;de:15085:5543;Drahtzug;nur DPN;11,124636;51,663447;Harzer Schmalspurbahnen GmbH;;
 8011305;DCDF;de:14524:10296;Cainsdorf;RV;12,496565;50,686559;DB RegioNetz Infrastruktur GmbH;;
 8011332;UCF;de:16073:8011332;Cursdorf;RV;11,132022;50,571871;DB RegioNetz Infrastruktur GmbH;;

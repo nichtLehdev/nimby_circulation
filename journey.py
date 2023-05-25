@@ -74,12 +74,20 @@ def main():
       print("No data for " + station + " on " + date)
       continue
 
+    # check if file has more than one row (Header + one row)
+    if (sum(1 for line in open(pathToCsv)) < 2):
+      print("No data for " + station + " on " + date)
+      continue
+
     # read csv as dataframe
     df = pd.read_csv(pathToCsv, dtype=str, header=1, names=["train", "type", "number", "flag", "origin", "destination", "ar_hrs", "ar_min", "dp_hrs", "dp_min", "platform", "prev_station", "next_station"], sep=";")
     # loop through all rows
     for row in df.itertuples():
       # check if field prev_station in row is empty
       if (pd.isnull(row.prev_station)):
+        if (os.path.exists(pathToJourney + row.type + "/" + str(row.number) + "/" + date + ".csv")):
+          #if file already exists continue
+          continue
         # if yes create a new dataframe
         index = 0
         journey = []
@@ -88,15 +96,17 @@ def main():
         journey.append(pd.DataFrame({"station": getNameFromRil100(station), "ril100": station, "dp_time": str(math.trunc(float(row.dp_hrs))) + ":" + str(math.trunc(float(row.dp_min))), "platform": row.platform }, index=[index]))
 
         #check if next station is in row
-        if ( not pd.isnull(row.next_station)):
-          print("Started concatenating journey of " + row.type + " " + str(row.number) + " from " + row.origin + " to " + row.destination)
-          # there are not journeys with only one station
-          getNextStation(getRil100FromName(row.next_station), date, row.type, row.number, journey, index)
-          # check if savepath exists
-          if (not os.path.exists(pathToJourney + row.type + "/" + str(row.number))):
-            os.makedirs(pathToJourney + row.type + "/" + str(row.number))
-          # save journey as csv
-          df = pd.concat(journey)
-          df.to_csv(pathToJourney + row.type + "/" +str(row.number) + "/" + date + ".csv", sep=";", index=False)
-          journeyCount += 1
+        try:
+          if ( not pd.isnull(row.next_station)):
+            # there are not journeys with only one station
+            getNextStation(getRil100FromName(row.next_station), date, row.type, row.number, journey, index)
+            # check if savepath exists
+            if (not os.path.exists(pathToJourney + row.type + "/" + str(row.number))):
+              os.makedirs(pathToJourney + row.type + "/" + str(row.number))
+            # save journey as csv
+            df = pd.concat(journey)
+            df.to_csv(pathToJourney + row.type + "/" +str(row.number) + "/" + date + ".csv", sep=";", index=False)
+            journeyCount += 1
+        except Exception as e:
+          continue
 main()

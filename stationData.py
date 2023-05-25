@@ -162,4 +162,35 @@ def getStationData(station, date, hrs, sleep, weekday):
         return {"type": "error", "msg": station.ds100 + " --- " + str(res.status)}
 
 
-__main__()
+def fixStationData():
+    dataPath = getDataPath()
+
+    csv = pd.read_csv(dataPath+'/stations.csv', sep=';', header=1, names=[
+                          "EVA_NR", "DS100", "IFOPT", "NAME", "Verkehr", "Laenge", "Breite", "Betreiber_Name", "Betreiber_Nr", "Status"], index_col=False)
+    stations = []
+    stations.append(pd.DataFrame(
+        columns=["EVA_NR", "DS100", "IFOPT", "NAME", "Verkehr", "Laenge", "Breite", "Betreiber_Name", "Betreiber_Nr", "Status"]))
+    i = 0
+    for row in csv.itertuples():
+        # get eva number
+        eva = row.EVA_NR
+        # get station from api
+        conn = http.client.HTTPSConnection("iris.noncd.db.de")
+        url = "/iris-tts/timetable/station/" + str(eva)
+        conn.request("GET", url, headers=headers)
+        res = conn.getresponse()
+        if (res.status == 200):
+            data = res.read()
+            station = ET.fromstring(data)
+            # get data and add to dataframe
+
+            frame = pd.DataFrame({"EVA_NR": eva, "DS100": row.DS100, "IFOPT": row.IFOPT, "NAME": station.find("station").attrib["name"], "Verkehr": row.Verkehr , "Laenge": row.Laenge, "Breite": row.Breite, "Betreiber_Name": row.Betreiber_Name, "Betreiber_Nr": row.Betreiber_Nr, "Status": row.Status}, index=[i])
+            i += 1
+            stations.append(frame)
+    # save dataframe to csv
+    df = pd.concat(stations)
+    df.to_csv(dataPath + "/stationsFix.csv", sep=";", index=False, header=True)
+
+
+
+fixStationData()
